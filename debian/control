@@ -1,0 +1,12 @@
+Source: ros-kinetic-hebi-description
+Section: misc
+Priority: extra
+Maintainer: Matthew Tesch <matt@hebirobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-urdf
+Homepage: http://wiki.ros.org/hebi_description
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hebi-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-urdf
+Description: ROS models for HEBI components

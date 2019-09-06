@@ -1,0 +1,9 @@
+ros-melodic-hebi-description (0.1.0-1bionic) bionic; urgency=high
+
+  * Moved the hebiros_description package contents to new package
+  * Cleaned up contents and added robots
+  * Contributors: Matthew Tesch
+
+ -- Matthew Tesch <matt@hebirobotics.com>  Fri, 06 Sep 2019 04:00:00 -0000
+
+

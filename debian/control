@@ -1,0 +1,12 @@
+Source: ros-melodic-hebi-description
+Section: misc
+Priority: extra
+Maintainer: Matthew Tesch <matt@hebirobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-urdf
+Homepage: http://wiki.ros.org/hebi_description
+Standards-Version: 3.9.2
+
+Package: ros-melodic-hebi-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-urdf
+Description: ROS models for HEBI components
